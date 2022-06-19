@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: rgb(238, 237, 237);
+}
+
+#conteinar {
+    text-align: center;
+    width: 40%;
+    /* height: 500px; */
+    background-color: aqua;
+    margin: 10% auto;
+    padding: 20px;
+}
+
+#conteinar h1{
+    font-size: 40px;
+    margin: 20px;
+}
+
+form{
+    padding: 0px auto;
+    margin: 20px;
+}
+
+input, label, select{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+label{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+input{
+    padding: 10px;
+    margin: 10px auto;
+}
+
+select{
+    padding: 10px;
+}
+
+
+
+p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+p a{
+    text-decoration: none;
+    color: rgb(89, 53, 231);
+    font-weight: bold;
+}
+
+input[type="submit"]{
+    font-size: 15px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    width: 30%;
+    font-weight: 600;
+}
+
+input[type="submit"]:hover{
+    background-color: orange;
+    color: brown;
+}
